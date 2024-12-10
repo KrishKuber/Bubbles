@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['bubble']
+
+roboflow:
+  workspace: bubbles-dm1p6
+  project: bubble-jgyy7
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/bubbles-dm1p6/bubble-jgyy7/dataset/1
